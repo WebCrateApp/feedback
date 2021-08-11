@@ -4,7 +4,7 @@
 
 The place to leave feature requests and bug reports for WebCrate!
 
-[🔮 Website](https://webcrate.app) - [📚 Docs](https://webcrate.app/docs) - [📧 Contact](https://webcrate.app/contact)
+[🔮 Website](https://webcrate.app) - [📚 Docs](https://webcrate.app/docs) - [📧 Contact](mailto:hi@webcrate.app)
 <br/>
 
 </div>
