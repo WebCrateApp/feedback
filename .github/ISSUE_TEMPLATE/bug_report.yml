@@ -1,6 +1,5 @@
-name: Bug Report
-description: Create a report to help us improve
-title: "[Bug]: "
+name: 🐛 Bug Report
+description: Create a bug report to report any bugs/problems you encountered.
 labels: [bug, triage]
 assignees:
   - BetaHuhn
@@ -9,6 +8,29 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: version
+    attributes:
+      label: 🏷️ WebCrate Version
+      description: What version of WebCrate did the bug occur on (can be found under `?`)
+      placeholder: v0.11.0
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: ⚙️ Environment
+      description: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Mobile
+        - Other (please specify below)
+    validations:
+      required: true
   - type: textarea
     id: describe-bug
     attributes:
@@ -22,7 +44,7 @@ body:
     attributes:
       label: 📚 To Reproduce
       description: Steps to reproduce the behavior
-      placeholder: Clicked on x and...
+      placeholder: How did you encounter the bug?
     validations:
       required: true
   - type: textarea
@@ -30,41 +52,13 @@ body:
     attributes:
       label: 💡 Expected behavior
       description: A clear and concise description of what you expected to happen
-      placeholder: Show ...
+      placeholder: What did you expect to happen?
     validations:
       required: true
   - type: textarea
-    id: screenshots
+    id: context
     attributes:
-      label: 🖼️ Screenshots
-      description: If applicable, add screenshots to help explain your problem
-      placeholder: Show ...
+      label: 📋 Additional context
+      description: If applicable add any other context or screenshots to help explain your problem
     validations:
       required: false
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output/errors
-      description: Please copy and paste any relevant log output/errors. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: dropdown
-    id: version
-    attributes:
-      label: WebCrate Version
-      description: What version of WebCrate did the bug occur on (can be found under `?`)
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-        - Other
