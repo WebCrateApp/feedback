@@ -1,14 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 📚 Docs
-    url: https://webcrate.app/docs
-    about: Checkout WebCrate's documentation before opening an issue.
-  - name: 🚀 Feature Request
-    url: https://github.com/WebCrateApp/webcrate/discussions/new?category=ideas
-    about: Share ideas for new features
-  - name: ❓ Ask a Question
-    url: https://github.com/WebCrateApp/webcrate/discussions/new?category=q-a
-    about: Ask the community for help
-  - name: 📧 Contact support
-    url: https://webcrate.app/contact
-    about: Contact WebCrate's support privately
+  - name: 🚚 Moved to WebCrateApp/webcrate
+    url: https://github.com/WebCrateApp/webcrate/issues/new/choose
+    about: Feedback was moved to a new repository. Open an issue or create a discussion there.
