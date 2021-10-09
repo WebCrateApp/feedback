@@ -2,15 +2,11 @@
 
 # 📋 WebCrate Feedback
 
-The place to leave feature requests and bug reports for WebCrate!
-
+The feedback was moved to [WebCrateApp/webcrate](https://github.com/WebCrateApp/webcrate)
+  
+[Create new issue](https://github.com/WebCrateApp/webcrate/issues/new/choose) - [Open a discussion](https://github.com/WebCrateApp/webcrate/discussions)
+  
 [🔮 Website](https://webcrate.app) - [📚 Docs](https://webcrate.app/docs) - [📧 Contact](mailto:hi@webcrate.app)
 <br/>
 
 </div>
-
-Hey everyone! This repo is going to be used for keeping track of bugs and feature requests for WebCrate. Even though WebCrate is not open source (yet), I really like GitHub as a place for discussion.
-
-Feel free to leave a bug or feature request as an issue/discussion!
-
-[Create new issue](https://github.com/WebCrateApp/feedback/issues/new/choose)
